@@ -1,22 +1,22 @@
 {
-	"name": "NodeWeb",
-    "version": "0.1.0",
-    "description": "NodeWeb",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1",
-        "postinstall": "bower install"
-    },
-    "repository": "",
-    "keywords": [
-        "node.js",
-        "eclipse",
-        "nodeclipse"
-    ],
-    "author": "",
-    "license": "MIT",
-    "readmeFilename": "README.md",
-    "dependencies": {
-        "serve-static": "~1.7.0"
-    }
+  "name": "NodeWeb",
+  "version": "0.1.0",
+  "description": "NodeWeb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "node.js",
+    "eclipse",
+    "nodeclipse"
+  ],
+  "author": "yugandhar",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "express": "4.14.0",
+    "serve-static": "~1.7.0"
+  }
 }
