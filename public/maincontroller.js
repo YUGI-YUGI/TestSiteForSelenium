@@ -1,5 +1,13 @@
 
 app.controller("MainController", function MainController($scope, $http){
+	
+	  $scope.example = {
+		        text: 'guest',
+//		        word: /^\s*\w*\s*$/
+		      };
+	
+	
+	
 	$scope.testData = [];
 	$scope.postIt = function() {
 		//alert("posting...");
