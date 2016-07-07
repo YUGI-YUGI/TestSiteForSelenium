@@ -4,7 +4,8 @@
   "description": "NodeWeb",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1",
+     "start": "node index.js"
   },
   "repository": "",
   "keywords": [
