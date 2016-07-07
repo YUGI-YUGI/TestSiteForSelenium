@@ -9,9 +9,9 @@ var servePublic = serveStatic('public', {'index': ['index.html', 'index.htm']});
 http.createServer(function handler(req, res) {
 	console.log(req.method, req.url, 'HTTP'+req.httpVersion, req.headers); // , req is too long
 
-	res.setHeader('Access-Control-Allow-Origin', '127.0.0.1');
+	//res.setHeader('Access-Control-Allow-Origin', '127.0.0.1');
     
     servePublic(req, res, function nextHandler(req, res){
     });    
-}).listen(1337, '127.0.0.1');
+}).listen(1337);
 console.log('Server running at http://127.0.0.1:1337/');
